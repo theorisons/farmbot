@@ -1,0 +1,19 @@
+#mainContainerAPropos {
+  text-align: center;
+  margin: 0 1.5em;
+}
+
+#titreAPropos {
+  margin: 0.5em 0;
+  font-size: 4em;
+  color: #fff;
+}
+
+.sousTitreAPropos {
+  font-size: 2em;
+  color: #ddd;
+}
+
+.paragrapheAPropos {
+  color: #fff;
+}

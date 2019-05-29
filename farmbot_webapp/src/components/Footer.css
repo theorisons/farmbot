@@ -1,0 +1,26 @@
+footer {
+  background-color: #343a40;
+}
+.lienSite {
+  color: red;
+}
+
+#copyright {
+  text-align: right;
+  font-size: 0.7em;
+  padding-right: 1em;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: #212121;
+}
+
+@media (hover: none) {
+  /*Impossible d'hover => tactile*/
+}
+
+@media not all and (hover: none) {
+  /*Ok hover possible => souris*/
+  .lienSite:hover {
+    color: black;
+  }
+}

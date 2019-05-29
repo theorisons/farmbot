@@ -1,0 +1,18 @@
+#titreCarte {
+  padding: 0.5em 0.5em;
+  font-size: 2em;
+}
+
+#descriptionCarte {
+  padding: 0.5em 0.5em 1em 0.5em;
+  font-size: 1.2em;
+}
+
+#titreDescriptionCarte {
+  background-color: #212121;
+  color: #eee;
+}
+
+#mainContainerCarte {
+  margin: 0 1em;
+}

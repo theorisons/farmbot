@@ -1,0 +1,27 @@
+#logoBrand {
+  margin-right: 1em;
+  width: 2em;
+  height: 2em;
+
+  transition: width 500ms, height 500ms;
+}
+
+#textBrand {
+  font-size: 1.5em;
+}
+
+.itemsNavigation {
+  white-space: nowrap;
+}
+
+@media (hover: none) {
+  /*Impossible d'hover => tactile*/
+}
+
+@media not all and (hover: none) {
+  /*Ok hover possible => souris*/
+  #logoBrand:hover {
+    width: 2.5em;
+    height: 2.5em;
+  }
+}
