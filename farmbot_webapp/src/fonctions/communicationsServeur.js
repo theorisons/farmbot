@@ -22,6 +22,6 @@ export const retourMaisonUrl = () => {
 };
 
 export const fluxVideoUrl = () => {
-  const urlCamera = `http://${ip}:8080`;
+  const urlCamera = `http://${ip}:8081`;
   return urlCamera;
 };
